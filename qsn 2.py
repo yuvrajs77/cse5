@@ -1,0 +1,5 @@
+A=int(input("Enter Gross Income="))
+B=int(input("Enter Number of Dependents="))
+C=int(A-10000-(3000*B))
+D=float(C*20/100)
+print("Income Tax=",D)
